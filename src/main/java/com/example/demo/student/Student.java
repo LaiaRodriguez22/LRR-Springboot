@@ -1,13 +1,11 @@
 package com.example.demo.student;
 
-import jakarta.persistence.*;
-
 import java.time.LocalDate;
 
-@Entity
-@Table
+//@Entity
+//@Table
 public class Student {
-      @Id
+      /*@Id
       @SequenceGenerator(
               name= "student_seq",
               sequenceName = "student_seq",
@@ -16,7 +14,7 @@ public class Student {
       @GeneratedValue(
               strategy = GenerationType.SEQUENCE,
               generator = "student_seq"
-      )
+      )*/
       private Long id;
       private String name;
       private String email;
